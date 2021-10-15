@@ -1,0 +1,24 @@
+{
+  "name": "be.jellever.track-generator",
+  "version": "0.0.1",
+  "displayName": "Track Generator",
+  "description": "Tools to create procedural racetracks",
+  "keywords": [
+    "keyword1",
+    "keyword2",
+    "keyword3"
+  ],
+  "author": {
+    "name": "Jelle",
+    "email": "jelle@jellever.be",
+    "url": "https://www.jellever.be"
+  },
+  "samples": [
+    {
+      "displayName": "Working Sample scenes",
+      "description": "Shows how everything works in practice",
+      "path": "Samples~/SampleProject"
+    }
+  ],
+  "type": "tool"
+}

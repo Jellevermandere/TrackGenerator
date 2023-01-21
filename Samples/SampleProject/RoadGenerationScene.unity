@@ -1,0 +1,2473 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 0
+  m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 0
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 12
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 512
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 256
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 1
+    m_PVRDenoiserTypeDirect: 1
+    m_PVRDenoiserTypeIndirect: 1
+    m_PVRDenoiserTypeAO: 1
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_LightingSettings: {fileID: 0}
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    maxJobWorkers: 0
+    preserveTilesOutsideBounds: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &67612709
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 67612714}
+  - component: {fileID: 67612713}
+  - component: {fileID: 67612712}
+  - component: {fileID: 67612711}
+  - component: {fileID: 67612710}
+  m_Layer: 0
+  m_Name: Road
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &67612710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67612709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03e5a003a9cad4d489cf866aed1239d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  updateRunTime: 1
+  updateEditor: 1
+  roadPoints:
+  - {fileID: 479874396}
+  - {fileID: 623204163}
+  - {fileID: 1527528048}
+  - {fileID: 898256316}
+  newroadPoints:
+  - cornerRadius: 8.288244
+    roadWidth: 6.948783
+    position: {x: -2.420641, y: 0, z: -3.9864087}
+    cornerPivot: {x: 4.6637936, y: 0, z: -8.288244}
+    bankAngle: 0
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 8.288244
+    roadWidth: 6.7909627
+    position: {x: -1.3626586, y: 0, z: -2.5513017}
+    cornerPivot: {x: 4.6637936, y: 0, z: -8.288244}
+    bankAngle: 0
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 8.288244
+    roadWidth: 6.6331425
+    position: {x: -0.12522393, y: 0, z: -1.4351072}
+    cornerPivot: {x: 4.6637936, y: 0, z: -8.288244}
+    bankAngle: 0
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0.5
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 8.288244
+    roadWidth: 6.2956123
+    position: {x: 1.2916627, y: 0, z: -0.6378253}
+    cornerPivot: {x: 4.6637936, y: 0, z: -8.288244}
+    bankAngle: 0
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 1
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 8.288244
+    roadWidth: 5.7783723
+    position: {x: 2.8880017, y: 0, z: -0.15945633}
+    cornerPivot: {x: 4.6637936, y: 0, z: -8.288244}
+    bankAngle: 0
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0.5
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 8.288244
+    roadWidth: 5.2611327
+    position: {x: 4.663792, y: 0, z: 0}
+    cornerPivot: {x: 4.6637936, y: 0, z: -8.288244}
+    bankAngle: 0
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 6.9657297
+    roadWidth: 4.686422
+    position: {x: 13.368702, y: 0, z: 0}
+    cornerPivot: {x: 13.368704, y: 0, z: -6.9657297}
+    bankAngle: 0.36865562
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 5.6432147
+    roadWidth: 4.1117105
+    position: {x: 22.073612, y: 0, z: 0}
+    cornerPivot: {x: 22.073614, y: 0, z: -5.6432147}
+    bankAngle: 0.73731124
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 4.3207
+    roadWidth: 3.5369997
+    position: {x: 30.778522, y: 0, z: 0}
+    cornerPivot: {x: 30.778522, y: 0, z: -4.3207}
+    bankAngle: 1.1059668
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 4.3207
+    roadWidth: 3.2496443
+    position: {x: 31.764294, y: 0, z: -0.058061276}
+    cornerPivot: {x: 30.778522, y: 0, z: -4.3207}
+    bankAngle: 1.1059668
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 4.3207
+    roadWidth: 2.9622889
+    position: {x: 32.623173, y: 0, z: -0.2322451}
+    cornerPivot: {x: 30.778522, y: 0, z: -4.3207}
+    bankAngle: 1.1059668
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0.25
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 4.3207
+    roadWidth: 2.6749332
+    position: {x: 33.35515, y: 0, z: -0.52255154}
+    cornerPivot: {x: 30.778522, y: 0, z: -4.3207}
+    bankAngle: 1.1059668
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0.5
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 4.3207
+    roadWidth: 2.3875778
+    position: {x: 33.960243, y: 0, z: -0.9289804}
+    cornerPivot: {x: 30.778522, y: 0, z: -4.3207}
+    bankAngle: 1.1059668
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0.75
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 4.3207
+    roadWidth: 2.4766736
+    position: {x: 34.43844, y: 0, z: -1.451532}
+    cornerPivot: {x: 30.778522, y: 0, z: -4.3207}
+    bankAngle: 1.1059668
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 1
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 4.3207
+    roadWidth: 2.9422202
+    position: {x: 34.789738, y: 0, z: -2.0902061}
+    cornerPivot: {x: 30.778522, y: 0, z: -4.3207}
+    bankAngle: 1.1059668
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0.75
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 4.3207
+    roadWidth: 3.407767
+    position: {x: 35.014145, y: 0, z: -2.8450024}
+    cornerPivot: {x: 30.778522, y: 0, z: -4.3207}
+    bankAngle: 1.1059668
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0.5
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 4.3207
+    roadWidth: 3.873314
+    position: {x: 35.11166, y: 0, z: -3.7159216}
+    cornerPivot: {x: 30.778522, y: 0, z: -4.3207}
+    bankAngle: 1.1059668
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0.25
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 4.3207
+    roadWidth: 4.3388605
+    position: {x: 35.08228, y: 0, z: -4.7029634}
+    cornerPivot: {x: 30.778522, y: 0, z: -4.3207}
+    bankAngle: 1.1059668
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 5.8811603
+    roadWidth: 4.8975163
+    position: {x: 34.2868, y: 0, z: -13.658966}
+    cornerPivot: {x: 28.428701, y: 0, z: -13.138645}
+    bankAngle: 0.99705344
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 7.44162
+    roadWidth: 5.4561725
+    position: {x: 33.49132, y: 0, z: -22.61497}
+    cornerPivot: {x: 26.07888, y: 0, z: -21.95659}
+    bankAngle: 0.8881401
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 9.002081
+    roadWidth: 6.014828
+    position: {x: 32.69584, y: 0, z: -31.570972}
+    cornerPivot: {x: 23.729061, y: 0, z: -30.774536}
+    bankAngle: 0.7792268
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 10.56254
+    roadWidth: 6.5734844
+    position: {x: 31.90036, y: 0, z: -40.526978}
+    cornerPivot: {x: 21.379238, y: 0, z: -39.592484}
+    bankAngle: 0.67031336
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 12.123
+    roadWidth: 7.13214
+    position: {x: 31.104881, y: 0, z: -49.48298}
+    cornerPivot: {x: 19.029419, y: 0, z: -48.410427}
+    bankAngle: 0.56140006
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 12.123
+    roadWidth: 7.551132
+    position: {x: 30.689075, y: 0, z: -52.432972}
+    cornerPivot: {x: 19.029419, y: 0, z: -48.410427}
+    bankAngle: 0.56140006
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 12.123
+    roadWidth: 7.9701242
+    position: {x: 30.00362, y: 0, z: -54.95616}
+    cornerPivot: {x: 19.029419, y: 0, z: -48.410427}
+    bankAngle: 0.56140006
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0.22222221
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 12.123
+    roadWidth: 8.389116
+    position: {x: 29.04851, y: 0, z: -57.052532}
+    cornerPivot: {x: 19.029419, y: 0, z: -48.410427}
+    bankAngle: 0.56140006
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0.44444442
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 12.123
+    roadWidth: 8.808108
+    position: {x: 27.82374, y: 0, z: -58.722088}
+    cornerPivot: {x: 19.029419, y: 0, z: -48.410427}
+    bankAngle: 0.56140006
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0.6666667
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 12.123
+    roadWidth: 9.2271
+    position: {x: 26.329317, y: 0, z: -59.964825}
+    cornerPivot: {x: 19.029419, y: 0, z: -48.410427}
+    bankAngle: 0.56140006
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0.8888889
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 12.123
+    roadWidth: 9.145638
+    position: {x: 24.56524, y: 0, z: -60.780754}
+    cornerPivot: {x: 19.029419, y: 0, z: -48.410427}
+    bankAngle: 0.56140006
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0.88888884
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 12.123
+    roadWidth: 9.064177
+    position: {x: 22.531511, y: 0, z: -61.16987}
+    cornerPivot: {x: 19.029419, y: 0, z: -48.410427}
+    bankAngle: 0.56140006
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0.6666666
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 12.123
+    roadWidth: 8.982714
+    position: {x: 20.228125, y: 0, z: -61.13217}
+    cornerPivot: {x: 19.029419, y: 0, z: -48.410427}
+    bankAngle: 0.56140006
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0.44444442
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 12.123
+    roadWidth: 8.901252
+    position: {x: 17.655083, y: 0, z: -60.667656}
+    cornerPivot: {x: 19.029419, y: 0, z: -48.410427}
+    bankAngle: 0.56140006
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0.22222221
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 12.123
+    roadWidth: 8.81979
+    position: {x: 14.812388, y: 0, z: -59.77633}
+    cornerPivot: {x: 19.029419, y: 0, z: -48.410427}
+    bankAngle: 0.56140006
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 13.395667
+    roadWidth: 8.638763
+    position: {x: 6.9421377, y: 0, z: -56.85627}
+    cornerPivot: {x: 11.601871, y: 0, z: -44.29718}
+    bankAngle: 0.53006667
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 14.668333
+    roadWidth: 8.457737
+    position: {x: -0.928113, y: 0, z: -53.936214}
+    cornerPivot: {x: 4.174322, y: 0, z: -40.183937}
+    bankAngle: 0.4987333
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 15.941
+    roadWidth: 8.2767105
+    position: {x: -8.798365, y: 0, z: -51.016155}
+    cornerPivot: {x: -3.2532258, y: 0, z: -36.07069}
+    bankAngle: 0.46739995
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 15.941
+    roadWidth: 8.186197
+    position: {x: -12.473756, y: 0, z: -49.40285}
+    cornerPivot: {x: -3.2532258, y: 0, z: -36.07069}
+    bankAngle: 0.46739995
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 15.941
+    roadWidth: 8.095684
+    position: {x: -15.45476, y: 0, z: -47.54789}
+    cornerPivot: {x: -3.2532258, y: 0, z: -36.07069}
+    bankAngle: 0.46739995
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0.25
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 15.941
+    roadWidth: 8.00517
+    position: {x: -17.741373, y: 0, z: -45.45127}
+    cornerPivot: {x: -3.2532258, y: 0, z: -36.07069}
+    bankAngle: 0.46739995
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0.5
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 15.941
+    roadWidth: 7.9146566
+    position: {x: -19.333601, y: 0, z: -43.11301}
+    cornerPivot: {x: -3.2532258, y: 0, z: -36.07069}
+    bankAngle: 0.46739995
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0.75
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 15.941
+    roadWidth: 7.825561
+    position: {x: -20.231438, y: 0, z: -40.533085}
+    cornerPivot: {x: -3.2532258, y: 0, z: -36.07069}
+    bankAngle: 0.46739995
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 1
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 15.941
+    roadWidth: 7.737883
+    position: {x: -20.434887, y: 0, z: -37.71151}
+    cornerPivot: {x: -3.2532258, y: 0, z: -36.07069}
+    bankAngle: 0.46739995
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0.75
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 15.941
+    roadWidth: 7.6502056
+    position: {x: -19.943947, y: 0, z: -34.648277}
+    cornerPivot: {x: -3.2532258, y: 0, z: -36.07069}
+    bankAngle: 0.46739995
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0.5
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 15.941
+    roadWidth: 7.5625277
+    position: {x: -18.758621, y: 0, z: -31.343395}
+    cornerPivot: {x: -3.2532258, y: 0, z: -36.07069}
+    bankAngle: 0.46739995
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0.25
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 15.941
+    roadWidth: 7.4748497
+    position: {x: -16.878906, y: 0, z: -27.796858}
+    cornerPivot: {x: -3.2532258, y: 0, z: -36.07069}
+    bankAngle: 0.46739995
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 13.390081
+    roadWidth: 7.2994943
+    position: {x: -12.0594845, y: 0, z: -19.86004}
+    cornerPivot: {x: -0.6142192, y: 0, z: -26.809875}
+    bankAngle: 0.31159997
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  - cornerRadius: 10.839163
+    roadWidth: 7.1241384
+    position: {x: -7.2400627, y: 0, z: -11.923224}
+    cornerPivot: {x: 2.0247874, y: 0, z: -17.549059}
+    bankAngle: 0.15579998
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: 0, y: 0, z: 0}
+    endCornerPoint: {x: 0, y: 0, z: 0}
+  maxAngleShift: 10
+  widthResolution: 2
+  maxLengthSegment: 10
+  otherPointWitdhImpact: 0.3
+  looping: 1
+  textureTiling: 1
+  updateTalud: 0
+  createTalud: []
+  updateBorder: 0
+  createBorders: []
+  updateMiniMapRoad: 0
+  createMiniMapRoad: {fileID: 0}
+--- !u!64 &67612711
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67612709}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 842987630}
+--- !u!23 &67612712
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67612709}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10302, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &67612713
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67612709}
+  m_Mesh: {fileID: 842987630}
+--- !u!4 &67612714
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67612709}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 479874397}
+  - {fileID: 623204164}
+  - {fileID: 1527528049}
+  - {fileID: 898256317}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &479874395
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 479874397}
+  - component: {fileID: 479874396}
+  m_Layer: 0
+  m_Name: RoadPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &479874396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479874395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 550ef25f39b04407a8a8fc29c66e82ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roadPoint:
+    cornerRadius: 8.288244
+    roadWidth: 6.554232
+    position: {x: 0, y: 0, z: 0}
+    cornerPivot: {x: 4.6637936, y: 0, z: -8.288244}
+    bankAngle: 0
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: -2.420641, y: 0, z: -3.9864087}
+    endCornerPoint: {x: 4.663792, y: 0, z: 0}
+  drawGizmos: 1
+  gizmoRadius: 1
+--- !u!4 &479874397
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 479874395}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 6.554232, y: 8.288244, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 67612714}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &623204162
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 623204164}
+  - component: {fileID: 623204163}
+  m_Layer: 0
+  m_Name: RoadPoint (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &623204163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623204162}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 550ef25f39b04407a8a8fc29c66e82ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roadPoint:
+    cornerRadius: 4.3207
+    roadWidth: 2.2439
+    position: {x: 35.5, y: 0, z: 0}
+    cornerPivot: {x: 30.778522, y: 0, z: -4.3207}
+    bankAngle: 1.1059668
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: 30.778522, y: 0, z: 0}
+    endCornerPoint: {x: 35.08228, y: 0, z: -4.7029634}
+  drawGizmos: 1
+  gizmoRadius: 1
+--- !u!4 &623204164
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623204162}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 35.5, y: 0, z: 0}
+  m_LocalScale: {x: 2.2439, y: 4.3207, z: 2.1059668}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 67612714}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!43 &842987630
+Mesh:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: track
+  serializedVersion: 10
+  m_SubMeshes:
+  - serializedVersion: 2
+    firstByte: 0
+    indexCount: 846
+    topology: 0
+    baseVertex: 0
+    firstVertex: 0
+    vertexCount: 141
+    localAABB:
+      m_Center: {x: 6.298296, y: 0, z: -31.214739}
+      m_Extent: {x: 30.233992, y: 2.2584827, z: 33.894135}
+  m_Shapes:
+    vertices: []
+    shapes: []
+    channels: []
+    fullWeights: []
+  m_BindPose: []
+  m_BoneNameHashes: 
+  m_RootBoneNameHash: 0
+  m_BonesAABB: []
+  m_VariableBoneCountWeights:
+    m_Data: 
+  m_MeshCompression: 0
+  m_IsReadable: 1
+  m_KeepVertices: 1
+  m_KeepIndices: 1
+  m_IndexFormat: 0
+  m_IndexBuffer: 000003000100010003000400010004000200020004000500000000000000000000000000030006000400040006000700040007000500050007000800000000000000000000000000060009000700070009000a0007000a00080008000a000b0000000000000000000000000009000c000a000a000c000d000a000d000b000b000d000e000000000000000000000000000c000f000d000d000f0010000d0010000e000e00100011000000000000000000000000000f0012001000100012001300100013001100110013001400000000000000000000000000120015001300130015001600130016001400140016001700000000000000000000000000150018001600160018001900160019001700170019001a0000000000000000000000000018001b00190019001b001c0019001c001a001a001c001d000000000000000000000000001b001e001c001c001e001f001c001f001d001d001f0020000000000000000000000000001e0021001f001f00210022001f002200200020002200230000000000000000000000000021002400220022002400250022002500230023002500260000000000000000000000000024002700250025002700280025002800260026002800290000000000000000000000000027002a00280028002a002b0028002b00290029002b002c000000000000000000000000002a002d002b002b002d002e002b002e002c002c002e002f000000000000000000000000002d0030002e002e00300031002e0031002f002f0031003200000000000000000000000000300033003100310033003400310034003200320034003500000000000000000000000000330036003400340036003700340037003500350037003800000000000000000000000000360039003700370039003a0037003a00380038003a003b0000000000000000000000000039003c003a003a003c003d003a003d003b003b003d003e000000000000000000000000003c003f003d003d003f0040003d0040003e003e00400041000000000000000000000000003f0042004000400042004300400043004100410043004400000000000000000000000000420045004300430045004600430046004400440046004700000000000000000000000000450048004600460048004900460049004700470049004a0000000000000000000000000048004b00490049004b004c0049004c004a004a004c004d000000000000000000000000004b004e004c004c004e004f004c004f004d004d004f0050000000000000000000000000004e0051004f004f00510052004f005200500050005200530000000000000000000000000051005400520052005400550052005500530053005500560000000000000000000000000054005700550055005700580055005800560056005800590000000000000000000000000057005a00580058005a005b0058005b00590059005b005c000000000000000000000000005a005d005b005b005d005e005b005e005c005c005e005f000000000000000000000000005d0060005e005e00600061005e0061005f005f0061006200000000000000000000000000600063006100610063006400610064006200620064006500000000000000000000000000630066006400640066006700640067006500650067006800000000000000000000000000660069006700670069006a0067006a00680068006a006b0000000000000000000000000069006c006a006a006c006d006a006d006b006b006d006e000000000000000000000000006c006f006d006d006f0070006d0070006e006e00700071000000000000000000000000006f0072007000700072007300700073007100710073007400000000000000000000000000720075007300730075007600730076007400740076007700000000000000000000000000750078007600760078007900760079007700770079007a0000000000000000000000000078007b00790079007b007c0079007c007a007a007c007d000000000000000000000000007b007e007c007c007e007f007c007f007d007d007f0080000000000000000000000000007e0081007f007f00810082007f008200800080008200830000000000000000000000000081008400820082008400850082008500830083008500860000000000000000000000000084008700850085008700880085008800860086008800890000000000000000000000000087008a00880088008a008b0088008b00890089008b008c000000000000000000000000008a0000008b008b00000001008b0001008c008c0001000200000000000000000000000000
+  m_VertexData:
+    serializedVersion: 3
+    m_VertexCount: 141
+    m_Channels:
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 12
+      format: 0
+      dimension: 3
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 24
+      format: 0
+      dimension: 2
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    - stream: 0
+      offset: 0
+      format: 0
+      dimension: 0
+    m_DataSize: 4512
+    _typelessdata: b3a6abc000000000a4fd08c05e6e953de34a7f3f073e65bc0000000000000000c8eb1ac00000000052217fc09ec2e83c8aba7f3fc85314bd0000003f0000000058d7053f0000000080a2bac0ef05c4bc7fbd7f3f41491cbd0000803f0000000080c278c000000000d87d8fbe000000000000803f0000000000000000404c2e3d996baebf00000000874823c0000000000000803f000000000000003f404c2e3dcdad943f00000000aa509ac0000000000000803f000000000000803f404c2e3de52304c00000000096aca03f000000000000803f0000000000000000404cae3db43a00be0000000098b1b7bf000000000000803f000000000000003f404cae3d1c39e83f00000000f20384c0000000000000803f000000000000803f404cae3d500d843d00000000dbb21040000000000000803f000000000000000030b9023e3455a53f00000000854823bf000000000000803f000000000000003f30b9023eca342140000000001d5762c0000000000000803f000000000000803f30b9023e8177164000000000337b2b40000000000000803f0000000000000000404c2e3e05d5384000000000854823be00000000ffff7f3f000000000000003f404c2e3e89325b400000000043e43fc0000000000000803f000000000000803f404c2e3ef6f59340000000003756284032ac7fbd2c807f3fcff378ba0000000050df593ec93d95400000000000000000bf54debc6bdc7e3f4bccb8bd0000003f50df593e9c85964000000000375628c0b72d3e3d52b57c3f6da01cbe0000803f50df593e34e65541e37d4f3f59b50c4092ea61bd140f793f740066be0000000030b9823e34e6554100000000000000005d8bd73bd448723fef4da5be0000003f30b9823e34e65541e37d4fbf59b50cc0ed64743d8e4e673f0241d9be0000803f30b9823ec296b041172a9c3f75cdd33f16c317bd95505c3f520702bf00000000b882983ec296b0410000000000000000ea5cbe3b24b8513ffecd12bf0000003fb882983ec296b041172a9cbf75cdd3bf1ed5253d4761443f9ce623bf0000803fb882983ef848f64175e8a73f42d1973fee32bdbcd3093e3fbe6c2bbf00000000404cae3e6a3af6410000000000000000f162153c89e1373fad1832bf0000003f404cae3edc2bf64175e8a7bf42d197bfef47023d02932b3f27d23dbf0000803f404cae3e0f34ff4148449a3f24f6823f73579ebddbb22b3f42d93cbf00000000ca15c43e461dfe4100000000a9d16dbd5744c0bdcfb22b3f2a5b3cbf0000003fca15c43e7d06fd4148449abf3ed391bfa554e1bde8a42b3f0bd53bbf0000803fca15c43e3a9b03421ca08c3ff2a7383f1ad741be16af2b3fe59b37bf0000000052dfd93e217e024200000000a9d16dbe105257beb1b12b3fed1836bf0000003f52dfd93e086101421ca08cbf63c897bf24926bbe169e2b3fb19834bf0000803f52dfd93e24140742def77d3f30be8b3e7aafa4be44ac2b3f3f202bbf00000000daa8ef3eac6b054200000000f0c505bf012cb1be06b32b3fb6f327bf0000003fdaa8ef3e34c30342def77dbf7cb5a8bffcc3bcbe4a982b3f79df24bf0000803fdaa8ef3effec094285af623f2a75a4be67c2ecbe5ba72b3f4e8414bf0000000031b9023f4ad7074200000000a9d16dbf23daf9bec8b32b3ff2fe0ebf0000003f31b9023f95c1054285af62bf5eb4c4bfe9ba02bf59932b3f16de09bf0000803f31b9023ffe740c420c256b3ffe0178bff3f816bf62a52b3f6c7ce6be00000000f59d0d3ff6c0094200000000cdcbb9bf31311cbf18b22b3ff4f7d7be0000003ff59d0d3fee0c07420c256bbf9b96f7bf2d3520bfc9972b3f9735ccbe0000803ff59d0d3f75ce0e4238ac8b3fd952dbbfe5892dbfaca42b3f66639abe00000000b982183fb1280b4200000000f0c505c0229430bfdab02b3f57b08bbe0000003fb982183fed82074238ac8bbf74e21dc0b2bb32bf73a12b3f219580be0000803fb982183f618a1042ebc5a13fa4df27c02a5e39bf02a52b3fb08c25be000000007d67233f7c0e0c4200000000851436c0e9ab3abf93b02b3fb4460bbe0000003f7d67233f97920742ebc5a1bf664944c050943bbfa2a72b3f6df0edbd0000803f7d67233f7ea311429edfb73fc9c56ac01c9c3dbfdda72b3f2d212ebd00000000414c2e3f57720c4200000000a9d16dc084cd3dbf57b22b3f17a1b2bc0000003f414c2e3f304107429edfb7bf89dd70c041e43dbf1faf2b3f5abea9bb0000803f414c2e3f1021124250f9cd3f19589ac0368b3dbfe9aa2b3ffee33c3d000000000531393f41540c4200000000ad7e96c0c25f3abf45e62e3f225a683d0000003f0531393f7287064250f9cdbf41a592c00a7a38bfb99f303f84798c3d0000803f0531393f6d0e10421d4fdd3f87ff5cc11a1d37bf1762323fc183593d00000000ca15443faf25094200000000208b5ac1be8133bf20d7353f08aa7b3d0000003fca15443ff13c02421d4fddbfb91658c1f30c30bf7af8383f04e7903d0000803fca15443fa2170e4222e2e73f0b5db6c1abfc2cbff2523c3f6f0b413d000000008efa4e3f1df705420000000075ebb4c1e3be28bf6bf23f3fccd86b3d0000003f8efa4e3f30adfb4122e2e7bfdf79b3c126a624bfda39433fdba68d3d0000803f8efa4e3f303c0c42219cec3f2f3ffec13e1221bf45b6463fa26a243d0000000052df593f8ac80242000000005a91fcc1ac181cbfdb724a3f3c4f593d0000003f52df593fc7a9f241219cecbf85e3fac1434217bfd2d04d3f9bca893d0000803f52df593fa97a0a42dd3eea3ff71223c2451613bfa65d513f3155033d0000000016c4643ff033ff4100000000a01b22c2ec4a0dbf4a20553f85b8433d0000003f16c4643f8e72e941dd3eeabf492421c2a99c07bfa07d583f772f853d0000803f16c4643f3ccb08425573df3fdc3047c25e0904bf4c1d5b3fd4c9183d00000000daa86f3fccd6f8410000000092ee45c2a48900bfc1e15c3fb525703d0000003fdaa86f3f1f17e0415573dfbf48ac44c27b3ef8bee02a5f3f0e71903d0000803fdaa86f3fa0aa0742db93ec3f5e5454c2926df6bec83c5f3fda50b63d000000009e8d7a3f3a83f541000000005dbb51c2cc80f5be073b5f3fc7c7c93d0000003f9e8d7a3f34b1db41db93ecbf5c224fc234adf4bee3335f3f3113db3d0000803f9e8d7a3fd91c054262b4f93fed7960c2e1b8edbea13a5f3f91d61e3e000000009e8d7a3f6a07f041000000001cd35bc26a8bebbe45395f3f366f2b3e0000003f9e8d7a3f22d5d54162b4f9bf4b2c57c281c7e9be292f5f3fce9e353e0000803f9e8d7a3f2adb0042746a03401c8a6bc2d290dbbefd3a5f3f5ab9713e00000000daa86f3f5963e84100000000cb3564c2943ad7bee7385f3f927b803e0000003fdaa86f3f5d10cf41746a03c07ae15cc21114d4be58295f3f3f06863e0000803fdaa86f3fa40bf541b7fa0940255f75c2c06bbbbe0e3a5f3f4b6ca63e0000000016c4643f0597de41000000006be36ac2b6afb3bed3385f3f2ec5ae3e0000003f16c4643f6622c841b7fa09c0b16760c2963aaebe06245f3f099db43e0000803f16c4643f07d3e341fb8a1040a6767dc2eb5b8cbebe355f3f6cbbcf3e0000000052df593f71a2d24100000000fbdb6fc228f780be3e395f3f39efd63e0000003f52df593fdb71c141fb8a10c0504162c27b1070be68215f3fe96cdc3e0000803f52df593f6b2bce414c440f40b32981c2ad7a28befe2f5f3fd036ec3e000000008efa4e3f9d85c441000000007e1f73c25b610ebe51395f3f7655f03e0000003f8efa4e3fcfdfba414c440fc095eb63c23eb8efbd2a245f3f64b0f33e0000803f8efa4e3f2dceb6419dfd0d40be3782c2d20263bd222f5f3fe92ff93e00000000ca15443f8940b44100000000f2ad74c2228d08bd3c395f3f4413fa3e0000003fca15443fe5b2b1419dfd0dc068ec64c2dcd86cbc9c2e5f3f15b2fa3e0000803fca15443f819d9e41edb60c40510e82c2b112183dbf315f3f260afa3e000000000631393f33d3a14100000000588774c275715b3d7d395f3fe125f93e0000003f0631393fe508a541edb60cc00ef264c2a38b8a3d55355f3fac4ef83e0000803f0631393f5eb385413f700b405ddd80c24076de3d99345f3fb479f43e00000000424c2e3f9c3d8d4100000000aeab72c2c4aaf63d513b5f3f50ecf23e0000003f424c2e3fdac794413f700bc0a29c63c2f422063e353b5f3f447df13e0000803f424c2e3f1060584190290a40d1987dc224091d3eef335f3f961eee3e000000007e67233f8bff6c4100000000f61a6fc20f6b233e89f55f3f342cea3e0000003f7e67233f83cf804190290ac01b9d60c2c3332d3ef881603ffc47e63e0000803f7e67233fc2aab340cf770140bdbc71c26064213e0332613f64bde53e00000000ba82183ffe25de4000000000d26c63c2b0e1263e092e623fadd6e03e0000003fba82183f9d500441cf7701c0e71c55c269602c3ea826633f81d4db3e0000803fba82183ffea50fc06795f13fd4ef65c25ea1193e7e1e643f704bdb3e00000000f69d0d3fd0986dbf00000000afbe57c2610b1f3e5814653f8344d63e0000003ff69d0d3fb4ccc63e6795f1bf8a8d49c20a76243ed106663fe71fd13e0000803ff69d0d3f81b222c19c4be03ffb055ac2be491a3ed2cc663f26a6cf3e0000000032b9023f1ac60cc1000000008b104cc23c3e233ef547673f90c2cb3e0000003f32b9023f66b3edc09c4be0bf1b1b3ec24669283ee0e3673f35e7c73e0000803f32b9023fabfe62c1add7dd3fe3c352c2cfd4403ee8ed673f211fc23e00000000d8a8ef3e819447c100000000859c45c2af6a493e37ec673f2df6bf3e0000003fd8a8ef3e572a2cc1add7ddbf277538c24988513eb0e4673fceebbd3e0000803fd8a8ef3e0f3e8dc1be63db3fdaec49c2c2af7b3ea6ea673f298ab03e0000000050dfd93eb24677c1000000000a313ec26627833e66ea673fdfa2ac3e0000003f50dfd93e461154c1be63dbbf3a7532c26fd5873e64e0673f6a31a93e0000803f50dfd93e23c4a3c1ccefd83f955a3fc230f09e3e21ea673f5f76933e00000000c815c43e55ee8dc1000000001ace35c288a5a43ee4ea673f760a8d3e0000003fc815c43e0e3170c1ccefd8bf9f412cc2b76aa93e74dc673fe0a8873e0000803fc815c43eb141b4c1dd7bd63ff8ed32c243f0bd3e94e7673feb44513e00000000404cae3e37ab9ac100000000b9732cc2a1bfc23ecfeb673ffa713e3e0000003f404cae3ebd1481c1dd7bd6bf7af925c2b0b5c63e15db673f28b32e3e0000803f404cae3e30a3bdc1c611d43f04f724c297bbd23e0ee3673ffce4cd3d00000000b882983efcd9a1c100000000e12122c212fed43ec9eb673fa16ea13d0000003fb882983ec81086c1c611d4bfbe4c1fc211d1d63e7ddd673f0bd4763d0000803fb882983e4e7cbfc180b1d13f752916c2d7f3d83ea5e0673f0158a7bb0000000030b9823ea67aa3c10000000096d816c2f66bd83ed3ea673f1c5eccbc0000003f30b9823efe7887c180b1d1bfb78717c20bddd73eabe2673f66412cbd0000803f30b9823e4a5cbac13f51cf3f8f1007c20c66d33e2de2673f2bedc2bd0000000050df593e348d9fc100000000d6970ac29756d13e52ea673fd7a8e1bd0000003f50df593e1ebe84c13f51cfbf1d1f0ec2787acf3ef7e6673f2a6bfcbd0000803f50df593e9715afc1f9f0cc3f6c8eefc13620c83ee3e4673f1a4327be00000000404c2e3ea81196c10000000046bffac1a1a4c53e0cec673f661932be0000003f404c2e3e721b7ac1f9f0ccbf10f802c2a15ac33e74ec673f14e63bbe0000803f404c2e3e806d9ec1b590ca3fd3b9d0c1507bc33e09c9673f19163ebe0000000030b9023e000887c100000000f75fdec10d0cb23e09266b3f5e7f40be0000003f30b9023e01455fc1b590cabf1b06ecc1d2169e3e14896d3ff81856be0000803f30b9023e309b70c18afa8a3f716990c194be9e3e8384703fc3fc14be00000000404cae3da6f340c1000000005de19ec1c8e8813e707a743f71571dbe0000003f404cae3d1c4c11c18afa8abf4959adc15ca1473e41a3773f29ee25be0000803f404cae3dbef923c1fd600c3f0c8b21c176cd453e107d7a3fd1d694bd00000000404c2e3d98aee7c00000000087c53ec1acca063e09f27c3f54c4a3bd0000003f404c2e3db46987c0fd600cbf02005cc194f58b3d8c6d7e3fda3bb2bd0000803f404c2e3d
+  m_CompressedMesh:
+    m_Vertices:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UV:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Normals:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Tangents:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Weights:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_NormalSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_TangentSigns:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_FloatColors:
+      m_NumItems: 0
+      m_Range: 0
+      m_Start: 0
+      m_Data: 
+      m_BitSize: 0
+    m_BoneIndices:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_Triangles:
+      m_NumItems: 0
+      m_Data: 
+      m_BitSize: 0
+    m_UVInfo: 0
+  m_LocalAABB:
+    m_Center: {x: 6.298296, y: 0, z: -31.214739}
+    m_Extent: {x: 30.233992, y: 2.2584827, z: 33.894135}
+  m_MeshUsageFlags: 0
+  m_BakedConvexCollisionMesh: 
+  m_BakedTriangleCollisionMesh: 
+  m_MeshMetrics[0]: 1
+  m_MeshMetrics[1]: 1
+  m_MeshOptimizationFlags: 1
+  m_StreamData:
+    serializedVersion: 2
+    offset: 0
+    size: 0
+    path: 
+--- !u!1 &898256315
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 898256317}
+  - component: {fileID: 898256316}
+  m_Layer: 0
+  m_Name: RoadPoint (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &898256316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898256315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 550ef25f39b04407a8a8fc29c66e82ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roadPoint:
+    cornerRadius: 15.941
+    roadWidth: 7.8694
+    position: {x: -26.9, y: 0, z: -44.3}
+    cornerPivot: {x: -3.2532258, y: 0, z: -36.07069}
+    bankAngle: 0.46739995
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: -8.798365, y: 0, z: -51.016155}
+    endCornerPoint: {x: -16.878906, y: 0, z: -27.796858}
+  drawGizmos: 1
+  gizmoRadius: 1
+--- !u!4 &898256317
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 898256315}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -26.9, y: 0, z: -44.3}
+  m_LocalScale: {x: 7.8694, y: 15.941, z: 1.4674}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 67612714}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &971291801
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 971291803}
+  - component: {fileID: 971291802}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &971291802
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971291801}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &971291803
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 971291801}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1057958277
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1057958280}
+  - component: {fileID: 1057958279}
+  - component: {fileID: 1057958278}
+  m_Layer: 0
+  m_Name: Main Camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1057958278
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057958277}
+  m_Enabled: 1
+--- !u!20 &1057958279
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057958277}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1057958280
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1057958277}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1527528047
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1527528049}
+  - component: {fileID: 1527528048}
+  m_Layer: 0
+  m_Name: RoadPoint (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1527528048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527528047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 550ef25f39b04407a8a8fc29c66e82ac, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roadPoint:
+    cornerRadius: 12.123
+    roadWidth: 9.2271
+    position: {x: 29.7, y: 0, z: -65.3}
+    cornerPivot: {x: 19.029419, y: 0, z: -48.410427}
+    bankAngle: 0.56140006
+    cornerType: 1
+    cornerProfile:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    curveImpact: 0
+    startCornerPoint: {x: 31.104881, y: 0, z: -49.48298}
+    endCornerPoint: {x: 14.812388, y: 0, z: -59.77633}
+  drawGizmos: 1
+  gizmoRadius: 1
+--- !u!4 &1527528049
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1527528047}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 29.7, y: 0, z: -65.3}
+  m_LocalScale: {x: 9.2271, y: 12.123, z: 1.5614}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 67612714}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

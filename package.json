@@ -1,6 +1,6 @@
 {
   "name": "be.jellever.track-generator",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "displayName": "Track Generator",
   "description": "Tools to create procedural racetracks",
   "keywords": [
